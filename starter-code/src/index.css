@@ -1,0 +1,111 @@
+.mainPage {
+  background-color: #1F2535;
+  
+}
+
+.leNavbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+img {
+  padding: 2% 4%; 
+}
+
+.theCarnita {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  justify-content: space-between;
+  /* height: 800px; */
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  margin-left: 5%;
+  width: 35%;
+  color: azure;
+  font-size: 2em;
+}
+
+.left h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.middle{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.middle img:first-child {
+  width: 70%;
+  
+}
+
+.middle img:nth-child(2) {
+  width: 60%;
+  margin-left: 150px;
+}
+
+.middle img:last-child {
+  width: 45%;
+  margin-right: 150px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 20%;
+  margin: 25px -55px 0 0;
+}
+
+.right img {
+  width: 55%;
+  margin: 0 -10px 0 0;
+}
+
+.button{
+  padding: 7%;
+  font-size: 1.2rem;
+  align-self: flex-end
+}
+
+.aboutFramework {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 150px 0 0 0;
+}
+
+.aboutFramework div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+
+  width: 15%;
+  height: auto;
+}
+
+/* p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+} */
